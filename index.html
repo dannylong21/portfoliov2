@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Layout Practice</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><span style="color:red;">Daniels</span>Development<span style="color:red;">Den</span></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+<main>
+    <div class="card">
+        <h1 class="card-title">Card 1</h1>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia labore deleniti sequi esse excepturi ad cupiditate amet tenetur delectus deserunt quos nesciunt, illo nobis eaque vel alias omnis suscipit quidem.</p>
+    </div>
+    <div class="card">
+        <h1 class="card-title">Card 2</h1>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia labore deleniti sequi esse excepturi ad cupiditate amet tenetur delectus deserunt quos nesciunt, illo nobis eaque vel alias omnis suscipit quidem.</p>
+
+    </div>
+    <div class="card">
+        <h1 class="card-title">Card 3</h1>
+        <p class="card-text">Lorem ipsum dolor sit amet consect
+            etur adipisicing elit. Mollitia labore deleniti sequi es
+            se excepturi ad cupiditate amet tenetur delectus deserunt qu
+            os nesciunt, illo nobis eaque vel alias o
+            mnis suscipit quidem.</p>
+    </div>
+</main>
+<div class="subscribe">
+    <h1 class="card">Subscribe to recieve email alerts for new additions to the portfolio or just leave a note or feedback!</h1>
+    <form class="subform" action="https://formsubmit.co/37831505e194c596b1dff6b3b48ba1ce" method="POST">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="Name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label" name="Email">Email address</label>
+            <input type="email" class="form-control" id="email" name="Email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label" name="Message">Message</label>
+            <textarea class="form-control" id="message" name="Message"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="sel1" name="Gender">What is your gender?</label>
+            <select class="form-control" id="sel1" name="Gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Prefer no to say</option>
+                </select>
+        </div>
+
+        <div class="form-group">
+            <label for="sel1" name="Reason">Reason for contact?</label>
+            <select class="form-control" id="sel1" name="Reason">
+                <option>Feedback</option>
+                <option>Bug Report</option>
+                <option>General Inquiry</option>
+                </select>
+        </div>
+        <button style="margin: 10px;" type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
+<footer class="footer">
+    <p>Made by Daniel-Jay Long <br>
+    All rights reserved 2025&reg</p>
+</footer>
+
+</body>
+</html>
